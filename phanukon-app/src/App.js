@@ -1,4 +1,70 @@
-import './App';
+import './App.css';
+import ProfileCard from './component/ProfileCard';
+
+const members = [
+  { id: 1, name: 'ภานุกร พิมพ์พา', nickname: 'กาฟิว', major: 'เทคโนโลยีสารสนเทศ', favorites: ['ชามะนาว', 'แกงกระหรี่'] },
+  { id: 2, name: 'ภูรีพัชญ์ บุษบงค์', nickname: 'ต้าหมิง', major: 'เทคโนโลยีสารสนเทศ', favorites: ['นม', 'ข้าวกะเพรา'] },
+  { id: 3, name: 'peter parker', nickname: 'ปีเตอร์', major: 'เทคโนโลยีสารสนเทศ', favorites: ['พิซซ่า', 'โคล่า'] },
+  // 👉 เพิ่มสมาชิกคนอื่น ๆ ของกลุ่มที่นี่
+];
+
+
+function App() {
+  return (
+    <div className="container">
+      <h1>สมาชิกกลุ่มของเรา</h1>
+      <div className="card-row">
+        {members.map((m) => (
+          <ProfileCard
+            key={m.id}
+            name={m.name}
+            nickname={m.nickname}
+            major={m.major}
+            favorites={m.favorites}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 import Header from './component/Header';
 import MovieList from './component/MovieList';
 import Footer from './component/Footer';
@@ -40,6 +106,6 @@ function App() {
     </div>
   );
 }
-
+*/
 export default App;
 
