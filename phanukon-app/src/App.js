@@ -9,6 +9,7 @@ import About from './pages/About';
 import MovieDetail from './pages/MovieDetail';
 import NotFound from './pages/NotFound';
 
+
 function App() {
   return (
     <div className="flex min-h-screen flex-col bg-slate-50">
