@@ -120,6 +120,6 @@ export const movies = [
     "year": 2026,
     "rating": 7.2,
     "detail": "เรื่องราวของเด็กหนุ่มที่เกิดมาพร้อมกับเวทมนตร์ แต่กลับไม่มีเวทมนตร์เลยสักนิดเดียว เขาและเพื่อนสนิทของเขาได้ออกเดินทางเพื่อที่จะเป็นจอมเวทที่ยิ่งใหญ่ที่สุดในโลก",
-    "poster": "https://ibb.co/JWPBDknj"
+    "poster": "https://media.themoviedb.org/t/p/w600_and_h900_face/9YEGawvjaRgnyW6QVcUhFJPFDco.jpg"
   }
 ];
