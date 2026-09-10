@@ -113,13 +113,35 @@ export const movies = [
   },
   {
     "id": 11,
-    "tmdbId": 1386315,
-    "title": "Black Clover",
+    "tmdbId": 812225,
+    "title": "Black Clover: Sword of the Wizard King",
     "titleTh": "แบล็คโคลเวอร์",
     "genre": "Animation",
-    "year": 2026,
+    "year": 2023,
     "rating": 7.2,
     "detail": "เรื่องราวของเด็กหนุ่มที่เกิดมาพร้อมกับเวทมนตร์ แต่กลับไม่มีเวทมนตร์เลยสักนิดเดียว เขาและเพื่อนสนิทของเขาได้ออกเดินทางเพื่อที่จะเป็นจอมเวทที่ยิ่งใหญ่ที่สุดในโลก",
     "poster": "https://media.themoviedb.org/t/p/w600_and_h900_face/9YEGawvjaRgnyW6QVcUhFJPFDco.jpg"
+  },
+  {
+    "id": 12,
+    "tmdbId": 1159311,
+    "title": "My Hero Academia: You're Next",
+    "titleTh": "มายฮีโร่อคาเดเมีย: ยูอาร์เน็กซ์",
+    "genre": "Animation",
+    "year": 2024,
+    "rating": 7.9,
+    "detail": "เรื่องราวของเด็กหนุ่มที่มีความฝันอยากเป็นฮีโร่ แต่กลับต้องเผชิญกับความท้าทายและอุปสรรคมากมายในการฝึกฝนและพัฒนาตัวเองให้กลายเป็นฮีโร่ที่แท้จริง",
+    "poster": "https://media.themoviedb.org/t/p/w600_and_h900_face/tTrI6PwqzxkgO3dvQ7BEKXM7SYR.jpg"
+  },
+  {
+    "id": 13,
+    "tmdbId": 1220552,
+    "title": "The Eminence in Shadow: Lost Echoes",
+    "titleTh": "เดอะ เอมินเน้นซ์ อิน แชโดว์: ลอสต์ เอคโค่",
+    "genre": "Animation",
+    "year": 2024,
+    "rating": 7.8,
+    "detail": "เรื่องราวของชายหนุ่มผู้อยากจะเป็นผู้มีอำนาจลึกลับในเงามืด แต่กลับต้องเข้าไปพัวพันกับองค์กรลับที่มีเป้าหมายในการทำลายโลก",
+    "poster": "https://media.themoviedb.org/t/p/w600_and_h900_face/jxrLc5uCK3s7qlb4aJU4aNTOJZR.jpg"
   }
 ];
